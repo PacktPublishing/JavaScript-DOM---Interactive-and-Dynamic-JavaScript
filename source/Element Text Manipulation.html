@@ -1,0 +1,37 @@
+<html>
+<head><title>JavaScript DOM Course</title></head>
+<body>
+<h1>Lorem ipsum dolor sit amet consectetuer adipiscinelit</h1>
+<ul>
+  <li id="one">Lorem ipsum dolor sit amet consectetuer.</li>
+  <li class="highlight">Aenean commodo ligula eget dolor.</li>
+  <li>Aenean massa cum sociis natoque penatibus.</li>
+</ul>
+<p  class="highlight">Lorem ipsum dolor sit amet, consectetuer adipiscing 
+elit. Aenean commodo ligula eget dolor. Aenean massa. 
+Cum sociis natoque penatibus et magnis dis parturient 
+montes, nascetur ridiculus mus. Donec quam felis, 
+ultricies nec, pellentesque eu, pretium quis, sem.</p>
+<ul>
+  <li  class="highlight">Lorem ipsum dolor sit amet consectetuer.</li>
+  <li>Aenean commodo ligula eget dolor.</li>
+  <li>Aenean massa cum sociis natoque penatibus.</li>
+</ul>
+<script>
+
+
+var el1 = document.querySelector('.highlight');
+console.log(el1);
+el1.textContent = "HELLO";
+el1.innerHTML = "Hello <br> World"
+el1.textContent;
+el1.outerHTML = "HELLO <BR> WORLD";
+
+
+
+
+
+
+</script>
+</body>
+</html>

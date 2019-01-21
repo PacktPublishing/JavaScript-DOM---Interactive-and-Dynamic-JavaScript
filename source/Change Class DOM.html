@@ -1,0 +1,42 @@
+<html>
+<head><title>JavaScript DOM Course</title>
+<style>
+.red{
+    background-color: red;
+    color:brown;
+}
+.blue{
+    background-color: blue;
+    color:aliceblue;
+}
+.test{
+    margin:10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<h1 class="test">Lorem ipsum dolor sit amet consectetuer adipiscinelit</h1>
+
+<script>
+
+var el1 = document.querySelector('h1');
+console.dir(el1);
+el1.classList.add('red');
+el1.classList.toggle('red');
+el1.classList.toggle('red');
+el1.classList.remove('test');
+//el1.className = "red";
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

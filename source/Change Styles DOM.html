@@ -1,0 +1,42 @@
+<html>
+<head><title>JavaScript DOM Course</title>
+<style>
+.red{
+    background-color: red;
+    color:brown;
+}
+.blue{
+    background-color: blue;
+    color:aliceblue;
+}
+.test{
+    margin:10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<h1 class="test">Lorem ipsum dolor sit amet consectetuer adipiscinelit</h1>
+
+<script>
+
+var el1 = document.getElementsByClassName('test');
+console.log(el1[0]);
+var tempEle = el1[0];
+tempEle.style.backgroundColor = "Green";
+tempEle.style.color = "white";
+tempEle.style.border = "5px dotted purple";
+tempEle.style.fontSize = "40px";
+tempEle.style.display = "none";
+tempEle.style.display = "block";
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

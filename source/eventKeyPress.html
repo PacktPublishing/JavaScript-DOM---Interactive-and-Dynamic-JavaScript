@@ -1,0 +1,54 @@
+<html>
+<head><title>JavaScript DOM Course</title>
+<style>
+.red{
+    background-color: red;
+    color:brown;
+}
+.blue{
+    background-color: blue;
+    color:aliceblue;
+}
+.test{
+    margin:10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<ul>
+    <li>My Item</li>
+    <li>Another Item</li>
+    <li>Wow Cool</li>
+    <li>New Color</li>
+</ul>
+<input type="text" name="newItem">
+
+<script>
+
+var ele = document.querySelector('input[name="newItem"]');
+ele.addEventListener('keypress',addItem);
+var eleUL = document.querySelector('ul');
+
+function addItem(event){
+    //console.log(event);
+    if(event.keyCode === 13 && ele.value.length > 1){
+        console.log(ele.value.length);
+        eleUL.style.backgroundColor = "yellow";
+    }
+}
+
+
+console.log(ele);
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
