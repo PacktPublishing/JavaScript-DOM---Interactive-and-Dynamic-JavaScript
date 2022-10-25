@@ -39,3 +39,7 @@ This course is for anyone who wants to learn about JavaScript, web developers, f
 
 * [Serverless JavaScript Projects [Video]](https://www.packtpub.com/web-development/serverless-javascript-projects-video?utm_source=github&utm_medium=repository&utm_campaign=9781789137828)
 
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781838559687">https://packt.link/free-ebook/9781838559687 </a> </p>
